@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:versionCode="1"
+    android:versionName="1.0"
+    android:compileSdkVersion="30"
+    android:compileSdkVersionCodename="11"
+    package="com.example.projectandroid1hit"
+    platformBuildVersionCode="30"
+    platformBuildVersionName="11">
+
+    <uses-sdk
+        android:minSdkVersion="19"
+        android:targetSdkVersion="30" />
+
+    <application
+        android:theme="@ref/0x7f0c0108"
+        android:label="@ref/0x7f0b0027"
+        android:icon="@ref/0x7f0a0000"
+        android:allowBackup="true"
+        android:supportsRtl="true"
+        android:roundIcon="@ref/0x7f0a0001"
+        android:appComponentFactory="android.support.v4.app.CoreComponentFactory">
+
+        <activity
+            android:name="com.example.projectandroid1hit.PlayScreen" />
+
+        <activity
+            android:theme="@ref/0x7f0c0109"
+            android:name="com.example.projectandroid1hit.MainActivity"
+            android:screenOrientation="0">
+
+            <intent-filter>
+
+                <action
+                    android:name="android.intent.action.MAIN" />
+
+                <category
+                    android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+</manifest>
